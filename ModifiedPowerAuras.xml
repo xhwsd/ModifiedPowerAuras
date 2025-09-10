@@ -2945,7 +2945,7 @@
 						MPowa_ConfigFrame_Container_7:Show()
 					</OnClick>
 					<OnLoad>
-						getglobal(this:GetName().."Text"):SetText("Functions")
+						getglobal(this:GetName().."Text"):SetText(MPOWA_CONFIGFRAME_FUNCTIONS)
 						PanelTemplates_DeselectTab(this)
 						PanelTemplates_TabResize(0, this)
 						getglobal(this:GetName().."HighlightTexture"):SetWidth(this:GetTextWidth() + 31)
